@@ -1,0 +1,87 @@
+body{
+  background-image:url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+text-align: center;
+  
+}
+
+#submit{
+  width: 200px;
+font-size:28px;
+  background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHYAsgMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAACAwQBAAUG/8QAKxAAAwACAgEEAgEDBQEAAAAAAAECAxESITEEQVFhEyJxMoGRBRRCUqEj/8QAGQEAAwEBAQAAAAAAAAAAAAAAAQIDAAQF/8QAHhEBAQACAwEBAQEAAAAAAAAAAAECERIhMQNBEwT/2gAMAwEAAhEDEQA/APsqxVkycZ/uMx+nc5EiqIanryWek9PPFvJ5Z289PVz9STjfJR7vwehHpYxTyW+WvIU+niK5cnT9voY/KJ5ZuX6Y3Lx53qJdXpIyfT/RfePlXI2YN/RLH/PN7qFelW967HL0/X2WLGEoJ3K1eSTxLGD6GfiXEpUm8OgNyQVhM/FoveIz8Zjf0QrGHOJVLml0yv8AGjOBhue0CwcacsKsPRZUbaZmVcdJIpyDluoYwaaIvU+n5Z6nXWz24x8l8E2TEnb67KYZOX/TXi5f9OU/toZixuF0j1Hi56XsE/TpexTm5sMdvLw4HeVuvgHPhrFU8dNOu0/g9icKxp00IqVlvudNeEbm6NPM/G/g49P8H0cbnGKhePoql78CMS5JP6Kcc6ZxvSzsHCYzRsSNUdBc+WRfDaOmNdD5kLgYnMpSapGqPk3gYnIESM4mzIWkLslpfFAuRjMfgIylOQWgqYm7+zKSWifQvIt6MVHck2No/hk9TsDJK5N/KNT3LQnFdW+359h5HH9suVMxwO/D1sdgw/ryrz7Dq1K9hLn30GM0hz4W40vOyWcLm9v2PQqk32Jy+OhplVSdM43s0LIcP6/3LInaJ8cFWNNdE3b9KZjRRKEz5HLwZzZDmRinoGKGJiXaOVrOJ3ELZwC7DxBoMxow7JZ38hNAtbQ55Sci2uiape+y1yDU7QYpjlpKsTfuNWGUjG3IN3TWk2vsadk+uV0XucdXK238GYp0LUVN/t237lOJLoe+OPG7U46rik6Zr7OhdB6JV0wqp6F1PRRxE5OjbErRhpwwlYpHqehOIemK6MmoNPoBnKkZOwxUMVbEphT5NYWw3loKa2KNXkGi2HbObA2a+xdF0xszyYamEXaO8+TTGZiM0d79haXZTXaE67GlbLuAvHynS8+xmJez8j4QuuKyPixt/jn1qnQEBPjo3l3oRaCqlP8AIjJU+4WRpEeaxscTHc4OIebOH4wVGPoeiLHT+Sma6JurPExs6dCnW2NxLbGnhL0dina2G50NieMoyie+3Py3SWajWYMYSC2BJqAFczDWDszDOBmtPQfQAoKQHEa10BsIgVftr7JJv/6Vv5ZZST/b3JvUQ1Sv2ZTFLPHtXi7SAy2pp6FY29FEKdC2apsUWSqfaT/wJW2z1Kel0iO8bum+l/A0yMm/U014b35Rg4kY6K8S5JiZWFV1t/RQq1H6zp+xz7dmWW/A/wDLSLcGPTWxHp8fFp0WS0Hbl+3010d7CrejubAb7FkRwu3MB0c2Lb0x9LyGKjU+hTZ0V2YeJ2zAaroW6ZgkNbNmid0dOR7APBS62BT0cmmvIDqd+TaCQcN7NueeOkwMdJ9oHPlctSvDXY0l2Fx3dFQ2q1S00UKxSavp/wCTJpa18D2bT1pQ8speGT3mb6la/kGm2JVarsHGGkdp/JxvNHDG0BJaGK0l5F4dvGuSaYORpCcXJ/fM78lW9TvXyVY3pJb/AMkODJyep9i2GpW7DZpHlllT5ZmR6RLfrZh6RsZvzTv22DjfXV8YY6ApnNgt7M7JHKugXXYDrsF10GQ8xVxW0DfRLGfi9djvzw1/Ua40vGysbOTAdzVdMyn0DifQpyarjT6fgJ1omyf0/flBfnxXj1dcbDGymlGHJ+2kHmlXa/j5PLnM5vb7X0Vf76FUryn1v4GuN/ELnNq5xtdryJnHb78BvJVLX/puNfNCcrAuG5us732iT1T00W1Cb2Tepwc1uX49g45dhjIQss6XZxn4mcU6PqKG/wBhOWeVLvyccJi4dLcOOcUJpb2uyf1WZtVrrSNONj62M7ebWRui/wD0+nxvv4OOKZeL4eqXXYrJWujjiMduPpE2+QbZxxVSgb7Afk44b8K5b35CyW1PXlHHCiUqbW2xNV21/c44Wehm3G+Wt+4xztHHFY48vRJvHidT58FGLI3rZxxz5euqTpVNOkSes9YsLS4tv+TjjYzaP6m/36/6M444rxgv/9k=);
+  color:hotpink;
+  height:40px;
+}
+
+h1{
+ font-weight:600;
+  color: white;
+  font-style: italic;
+  font-size: 40px;  
+}
+
+.cc{
+  color: white;
+  font-style: italic;
+  font-size:30px;
+}
+ 
+#sf{
+  background-color: grey;
+  width:800px;
+  padding: 20px;
+  height:700px;
+  border: thick ridge black;
+  display: inline-block;
+}
+
+#inner-form{
+  background-image: url(https://images.unsplash.com/photo-1465101162946-4377e57745c3?ixlib=rb-1.2.1&w=1000&q=80);
+   background-repeat: no-repeat;
+  padding:30px;
+  font-size:21px;
+  color:white;
+  text-shadow: 2px 2px 5px red;
+}
+
+#number{
+  width:140px;
+}
+
+#holder{
+text-shadow: 2px 2px 5px pink;
+}
+
+#holder:hover{
+  background-color:black;
+  transform: scale(1.3);
+
+}
+
+#section-two:hover{
+  background-color: white;
+  transform: scale(1.3);
+}
+
+#section-three:hover{
+  background-color:black ;
+  transform: scale(1.1);
+}
+
+#submit:hover{
+  color:blue;
+  background-color:black;
+  font-size:30px;
+  text-shadow: 2px 2px 5px white;
+  transform: scale(1.3);
+}
+
+*/ #submit{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width:400px;
+  font-size:34px;
+}
+*/
