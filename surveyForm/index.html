@@ -1,0 +1,66 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<html>
+  <body>
+    <h1 id= "title">This is a survey form</h1>
+    <p id="description" class="cc">Thank you for taking the time to fill this</p>
+    
+    <div id= "sf">
+    <form id= "survey-form">
+      <div id="inner-form">
+        <div id="holder">
+      <label id= "name-label" for="name">NAME : </label> 
+      <input id="name" type="text" placeholder="name" required> 
+      <br><br>
+      <label id="email-label" for= "email">EMAIL :             </label>
+      <input id="email" type="email" placeholder="E-mail"       required>
+      <br><br>
+      
+      <label id="number-label" for="number">AGE :                </label>
+      <input id="number" type="number" placeholder="age" min="10" max="100" required>
+        </div>
+        <div id="section-two">
+      <div id="dropdown"><br>
+      <label> Select favourite activity: </label>
+      
+      <select> 
+        <option value="reading">Reading</option>
+        <option value="gym">Workout</option>
+        <option value="tv">Researching</option>
+        <option value="Music">Music</option>
+      </select>
+      </div>
+        <p>GENDER</p>
+      <input type="radio" id="male" name="gender" value="male">
+        
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label><br>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label>
+        </div>
+      <br>
+        
+        <div id="section-three">
+      <p>Reviews: </p>
+  <input type="checkbox" id="good" name="tick" value="Plaform is Good">
+  <label for="good">Plaform is Good!</label><br>
+  <input type="checkbox" id="better" name="tick" value="itcould be better">
+  <label for="better"> It could be better :)</label><br>
+  <input type="checkbox" id="duh" name="tick" value="duh">
+  <label for="duh"> I have no idea</label><br>
+    
+      <p>Any comments or suggestions?</p>
+      <textarea id="extraspace" name="extraspace" rows="4" cols="50">
+      
+      </textarea>
+      <br><br>
+        </div>
+      <input id="submit" type="submit" value="Submit">
+      </div>
+    </form>
+     
+   </div>
+  
+  </body>
+  </html>
