@@ -1,0 +1,40 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+  display: flex;
+  flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+button{
+  border: none;
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  margin: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#like{
+background-image: linear-gradient(315deg, #637081 10%, #7c98b3 74%);
+		color: white;
+}
+
+#dislike{
+   background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+}
+
+button:hover{
+  filter:hue-rotate(40deg);
+  transform: scale(1.1);
+}
+
