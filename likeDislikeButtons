@@ -1,4 +1,0 @@
-<div>
-  <button id="like" class="selected">Like</button>
-  <button id="dislike">Dislike</button>
-</div>
