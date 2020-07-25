@@ -1,0 +1,104 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    font-family: Gotham , sans-serif;
+
+}
+
+body{
+    /*this gives a gradient like effect from right to left the color changes from blue to light green */
+   background:linear-gradient(to right, hsl(200, 100%, 50%), hsl(175, 100%, 50%));; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh; /*to add vertical gap or height*/
+   overflow: hidden; /* to remove scrollbar*/
+} 
+ 
+.clock{
+    width: 300px;
+    height: 300px;
+    /* .8 in background-color specifies 80% transparency*/
+    background-color: rgba(255, 255, 255 , .8);
+    border-radius: 50%; /* makes it circle*/
+    border: 2px solid black;
+    position: relative;
+}
+
+.clock .number{
+    position: absolute;
+    font-size: 1.5rem;
+    --rotation: 0;  /* by  default every number has rotation value 0*/
+    width: 100%;
+    height: 100%;
+    text-align: center; /* till this all numbers are overlapped over eaach other and are at position 12 of clock */
+    transform: rotate(var(--rotation)); /* declared a variable rotation - because every number needs to be rotated at diffrent angle*/
+    /* tranform rotate will rotate each number according to the rotation value we have mentioned*/
+}
+ 
+.clock .number1{--rotation: 30deg;}
+.clock .number2{--rotation: 60deg;}
+.clock .number3{--rotation: 90deg;}
+.clock .number4{--rotation: 120deg;}
+.clock .number5{--rotation: 150deg;}
+.clock .number6{--rotation: 180deg;}
+.clock .number7{--rotation: 210deg;}
+.clock .number8{--rotation: 240deg;}
+.clock .number9{--rotation: 270deg;}
+.clock .number10{--rotation: 300deg;}
+.clock .number11{--rotation: 330deg;}
+/* since 12 is already at right position so we need not mention that as 360 deg*/
+
+
+.clock .hand{
+    position: absolute;
+    --rotation:0;
+    bottom: 50%;
+    left: 50%;
+    border: 1px solid white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 10; /*makes sure that hand is always on top of number*/
+   
+    transform-origin: bottom;/*allows programmer to tell the origin of transformation */
+   /*till this the hands of clock are offset from 12 to fix that */
+   /* translateX translates the object by 50% of its width backwards on x axis*/
+   
+   transform: translateX(-50%) rotate(calc(var(--rotation) *1deg)); 
+   
+   /* created another variable because different hands have to be rotated*/
+   /* used calc (*1 deg ) so that value of variable rotation gets converted to degrees */
+   
+}
+
+.clock::after{
+    content:'' ;
+    position: absolute;
+    background-color: black;
+    z-index: 11;
+    width: 15px;
+    height: 15px;/* creates a small black box till here*/
+    /* positioning it*/
+    top:50%;
+    left: 50%;
+    /* since its not at center of clock so adjusting it*/
+    transform: translate(-50%, -50%);
+    border-radius:50% ; /*circles the box*/
+}
+.clock .hand.second{
+   width: 5px;
+   height: 45%;
+   background-color: red;   
+}
+
+.clock .hand.minute{
+    width: 7px;
+    height: 40%;
+    background-color: black;   
+ }
+
+ .clock .hand.hour{
+    width: 10px;
+    height: 35%;
+    background-color: black;   
+ }
+ 
